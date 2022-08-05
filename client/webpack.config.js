@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards',
+        title: 'JATE',
       }),
 
       new InjectManifest({
@@ -33,7 +33,7 @@ module.exports = () => {
         inject: true,
         name: 'JATE Note Taker',
         short_name: 'Jate',
-        description: 'Just another note taker!',
+        description: 'Just another text editor!',
         start_url: './',
         publicPath: './',
         icons: [
